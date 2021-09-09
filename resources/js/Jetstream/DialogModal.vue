@@ -1,0 +1,48 @@
+<template>
+    <modal :show="show" :max-width="maxWidth" :closeable="closeable" @close="close">
+        <div class="px-4 py-4">
+            <h3 class="">
+                <slot name="title">
+                </slot>
+            </h3>
+
+            <div class="mt-4">
+                <slot name="content">
+                </slot>
+            </div>
+        </div>
+
+        <div class="px-4 py-4 text-right">
+            <slot name="footer">
+            </slot>
+        </div>
+    </modal>
+</template>
+
+<script>
+    import Modal from './Modal'
+
+    export default {
+        components: {
+            Modal,
+        },
+
+        props: {
+            show: {
+                default: false
+            },
+            maxWidth: {
+                default: '2xl'
+            },
+            closeable: {
+                default: true
+            },
+        },
+
+        methods: {
+            close() {
+                this.$emit('close')
+            },
+        }
+    }
+</script>

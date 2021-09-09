@@ -1,0 +1,3 @@
+[submodule "laradock-fork"]
+	path = laradock-fork
+	url = ssh://git@git.alekseon.com:2222/docker/laradock-fork.git

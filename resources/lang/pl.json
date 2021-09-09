@@ -1,0 +1,17 @@
+{
+  "Whoops! Something went wrong.": "Kurza meledia! Coś poszło nie tak.",
+  "Name": "Nazwa użytkownika",
+  "Email": "Adres e-mail",
+  "Password": "Hasło",
+  "Confirm Password": "Powtórz hasło",
+  "MAGIC IS IN THE DETAILS": "MAGIA TKWI W SZCZEGÓŁACH",
+  "The provided password was incorrect.": "Podane hasło jest nieprawidłowe.",
+  "This password does not match our records.": "To hasło nie pasuje do naszych danych.",
+  "status": "Status",
+  "disabled": "Wyłączony",
+  "enabled" : "Włączony",
+  "yes": "Tak",
+  "no": "Nie",
+  "name": "Nazwa",
+  "code": "Kod"
+}

@@ -1,0 +1,283 @@
+{
+  "general": {
+    "copyright": "Piaf Vue © 2018 Wszelkie prawa zastrzeżone."
+  },
+  "unauthorized": {
+    "title": "Próba nieautoryzowanego dostępu",
+    "detail": "Nie masz uprawnień do przeglądania strony, do której próbujesz uzyskać dostęp."
+  },
+  "user": {
+    "update_password": "Aktualizacja hasła",
+    "update_password-message": "Upewnij się, że Twoje konto używa długiego, losowego hasła, aby zachować bezpieczeństwo.",
+    "users-title": "Użytkownicy",
+    "login-title": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "forgot-password": "Zapomniałem hasła",
+    "email": "E-mail",
+    "password-again": "Ponów hasło",
+    "forgot-password-question": "Zapomniałeś hasła?",
+    "fullname": "Pełne imię",
+    "login-button": "ZALOGUJ",
+    "logout-button": "Wyloguj",
+    "register-button": "ZAREJESTRUJ",
+    "reset-password-button": "RESET",
+    "username": "Nazwa użytkownika",
+    "profile": "Profil użytkownika",
+    "created_at": "Data utworzenia",
+    "profile-information": "Informacje o profilu",
+    "profile-infomrmation-message": "Zaktualizuj informacje profilowe i adres e-mail swojego konta.",
+    "select-photo": "Wybierz zdjęcie",
+    "remove-photo": "Usuń zdjęcie",
+    "new-user-title": "Nowy użytkownik",
+    "edit-user-title": "Edycja użytkownika",
+    "delete": {
+      "account": "Usuń użytkownika",
+      "account-title": "Usuwanie użytkownika",
+      "info": "Permanentne usuwanie konta użytkownika",
+      "message": {
+        "confirmation": "Czy na pewno chcesz usunąć swoje konto? Po usunięciu konta wszystkie jego zasoby i dane zostaną trwale usunięte. Wprowadź swoje hasło, aby potwierdzić, że chcesz trwale usunąć swoje konto.",
+        "warning": "Po usunięciu konta wszystkie jego zasoby i dane zostaną trwale usunięte. Przed usunięciem konta pobierz wszelkie dane lub informacje, które chcesz zachować."
+      }
+    },
+    "password": {
+      "confirmation": {
+        "title": "Potwierdź hasło",
+        "notice": "Ze względów bezpieczeństwa potwierdź hasło, aby kontynuować"
+      }
+    }
+  },
+  "profile": {
+    "two-factor": {
+      "title": "Uwierzytelnianie dwuetapowe",
+      "caption": "Dodaj dodatkowe zabezpieczenia do swojego konta, korzystając z uwierzytelniania dwuskładnikowego.",
+      "safety-tip": "Przechowuj te kody odzyskiwania w bezpiecznym menedżerze haseł. Można ich użyć do odzyskania dostępu do konta w przypadku utraty urządzenia do uwierzytelniania dwuskładnikowego.",
+      "message": {
+        "enabled": "Włączono uwierzytelnianie dwuskładnikowe.",
+        "disabled": "Nie włączono uwierzytelniania dwuskładnikowego.",
+        "description": "Gdy włączone jest uwierzytelnianie dwuskładnikowe, podczas uwierzytelniania zostanie wyświetlony monit o bezpieczny, losowy token. Możesz pobrać ten token z aplikacji Google Authenticator na telefonie.",
+        "after-enable": "Uwierzytelnianie dwuskładnikowe jest teraz włączone. Zeskanuj poniższy kod QR za pomocą aplikacji uwierzytelniającej w telefonie."
+      },
+      "button": {
+        "show-codes": "Pokaż kody odzyskiwania",
+        "regenerate-codes": "Regeneruj kody odzyskiwania"
+      }
+    },
+    "session": {
+      "message": {
+        "description": "Zarządzaj aktywnymi sesjami i wyloguj się z nich w innych przeglądarkach i urządzeniach.",
+        "content": "W razie potrzeby możesz wylogować się ze wszystkich innych sesji przeglądarki na wszystkich swoich urządzeniach. Niektóre z twoich ostatnich sesji są wymienione poniżej; jednak lista ta może nie być wyczerpująca. Jeśli uważasz, że Twoje konto zostało naruszone, zaktualizuj również swoje hasło."
+      },
+      "title": "Sesje przeglądarki",
+      "this-device": "To urządzenie",
+      "last-active": "Ostatnio używane",
+      "button": "Wyloguj się z innych sesji przeglądarki",
+      "modal": {
+        "content": "Wprowadź hasło, aby potwierdzić, że chcesz wylogować się z innych sesji przeglądarki na wszystkich swoich urządzeniach."
+      }
+    }
+  },
+  "menu": {
+    "home": "Start",
+    "app": "Start",
+    "dashboard": "Panel główny",
+    "system": "System",
+    "default": "Domyślny",
+    "pages": "Strony",
+    "details": "Szczegóły",
+    "search": "Szukaj",
+    "mailing": "Mailing",
+    "error": "Błąd",
+    "auth-login": "Logowanie do autoryzacji",
+    "auth-register": "Rejestr autoryzacji",
+    "contact": "Kontakt",
+    "docs": "Docs",
+    "authorization": "Autoryzacja",
+    "profile": "Profil użytkownika",
+    "dataflow": "Przepływ Danych",
+    "bizami": "Bizami",
+    "bizami-data": "Dane",
+    "bizami-simulate": "Uruchom symulacje",
+    "bizami-products": "Produkty",
+    "bizami-warehouses": "Magazyny",
+    "bizami-warehouse_states": "Stany Magazynowe",
+    "bizami-sale_documents": "Dokumenty",
+    "bizami-algorithms": "Algorytmy",
+    "users": "Użytkownicy",
+    "bizami-simulations": "Symulacje"
+  },
+  "dashboards": {
+    "pending-orders": "Zamówienia w toku",
+    "completed-orders": "Zrealizowane zamówienia",
+    "refund-requests": "Żądania zwrotu",
+    "sales": "Sprzedaż",
+    "recent-orders": "Ostatnie zamówienia",
+    "keyword": "Słowo kluczowe",
+    "search": "Szukaj",
+    "last-7-errors": "Błędy z ostatnich 7 dni",
+    "last-imports": "Ostatnie importy"
+  },
+  "alert": {
+    "info": "Informacja",
+    "success": "Sukces",
+    "warning": "Uwaga",
+    "error": "Błąd",
+    "filled": "Niepowodzenie"
+  },
+  "button": {
+    "active": "Aktywny",
+    "disabled": "Wyłączone",
+    "basic": "Podstawowy",
+    "toolbar": "Pasek narzędzi",
+    "checkbox": "Pole wyboru",
+    "radio": "Radio",
+    "radio-button": "Przycisk radiowy",
+    "success": "Sukces",
+    "danger": "Sukces",
+    "warning": "Uwaga",
+    "info": "Informacje",
+    "light": "jasny",
+    "dark": "Ciemny",
+    "click-here": "Kliknij tutaj",
+    "save": "Zapisz",
+    "submit" : "Zatwierdź",
+    "delete": "Usuń",
+    "view": "Zobacz",
+    "back": "<- Powrót",
+    "add-new": "Utwórz nowy",
+    "new": "Nowy",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź"
+  },
+  "forms": {
+    "email": "E-mail",
+    "password": "Hasło",
+    "password-confirmation": "Potwierdzenie hasła",
+    "password-current": "Aktualne hasło",
+    "password-new": "Nowe hasło",
+    "age": "Age",
+    "submit": "Wyślij",
+    "signin": "Zaloguj",
+    "email-u": "E-MAIL",
+    "password-u": "HASŁO",
+    "tags-u": "TAGI",
+    "date-u": "DATA",
+    "state-u": "STAN",
+    "address": "Adres",
+    "address2": "Adres 2",
+    "city": "Miasto",
+    "city-message": "Proszę wybrać miasto!",
+    "state-message": "Proszę wybrać województwo!",
+    "zip": "Kod pocztowy",
+    "signup": "Signup",
+    "description": "Opis",
+    "validation": "Walidacja",
+    "default": "Domyślny",
+    "firstname": "Imię",
+    "firstname-message": "Proszę wprowadzić imię!",
+    "lastname": "Nazwisko",
+    "lastname-message": "Proszę wprowadzić nazwisko!",
+    "password-confirm": "Potwierdzenie hasła",
+    "name": "Nazwa",
+    "username": "Nazwa użytkownika",
+    "saved": "Zapisano",
+    "type": "Typ",
+    "warehouse_id": "ID Magazynu"
+  },
+  "section": {
+    "general": "Sekcja główna",
+    "parameters": "Parametry",
+    "additional-condition-parameters": "Dodatkowe parametry warunkowe"
+  },
+  "table": {
+    "no_results_found": "Brak rezultatów",
+    "previous": "Poprzedni",
+    "next": "Następny",
+    "to": "do",
+    "of": "z",
+    "results": "wyników",
+    "add-a-filter": "Dodaj filtr",
+    "filter": "Filtruj",
+    "manage-columns": "Zarządzaj kolumnami",
+    "search": "Wyszukaj...",
+    "remove-search": "Usuń wyszukiwanie",
+    "edit": "edytuj",
+    "actions": "akcje",
+    "view": "zobacz"
+  },
+  "flow": {
+    "dataflow-title": "Przepływ danych",
+    "title-s": "Harmonogramy",
+    "title": "Harmonogram",
+    "is_forced": "Wymuszony",
+    "schedule": "Harmonogram",
+    "schedule_name": "Nazwa harmonogramu",
+    "schedule-manage-button": "Zarządzaj harmonogramami",
+    "add-queue-button": "Dodaj do kolejki",
+    "executed_at": "Wykonano o",
+    "finished_at": "Zakończono o",
+    "log_time": "Czas utworzenia",
+    "level": "Poziom",
+    "message": "Opis dziennika"
+  },
+  "bizami": {
+    "warehouse_state-s": "Stany magazynowe",
+    "warehouse": "Magazyn",
+    "warehouse-s": "Magazyny",
+    "product-s": "Produkty",
+    "algorithm-edit": "Edycja algorytmu",
+    "catalog_number": "Nazwa kat.",
+    "provider": "Dostawca",
+    "producent": "Producent",
+    "catalog_group": "Grupa kat.",
+    "category": "Kat.",
+    "qty_reserved": "Ilość zarezerwowana",
+    "qty_ordered": "Ilość zamówiona",
+    "product_id": "Ident. produktu",
+    "algorithm": "Algorytm",
+    "gross": {
+      "weight": "Waga brutto",
+      "volume": "Obj. brutto"
+    },
+    "sale": {
+      "title": "Dokumenty",
+      "document_id": "Ident. dokumentu",
+      "doc_id": "Ident. dokumentu",
+      "warehouse_id": "Ident. magazynu",
+      "is_investment": "Inwestycyjny"
+    },
+    "button": {
+        "create-simulation": "Stwórz Symulację",
+        "analytics-view": "Widok analityczny",
+        "base-view": "Widok podstawowy"
+    },
+    "columns": {
+        "date": "Data",
+        "user": "Użytkownik",
+        "algorithm": "Algorytm",
+        "supplier": "Dostawca"
+    }
+  },
+  "common": {
+    "type": "Typ",
+    "date": "Data",
+    "name": "Nazwa",
+    "status": "Status",
+    "result": "Wynik",
+    "value": "Wartość",
+    "qty": "Ilość",
+    "norm": "Norma",
+    "code": "Kod",
+    "priority": "Priorytet",
+    "enable": "Włącz",
+    "disable": "Wyłącz",
+    "parameters": "Parametry",
+    "new_f": "Nowa",
+    "new": "Nowy",
+    "columns": {
+      "actions": "Akcje"
+    },
+    "buttons": {
+        "edit": "Edycja"
+    }
+  }
+}
